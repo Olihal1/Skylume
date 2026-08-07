@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SkyLume on Modrinth
+    url: https://modrinth.com/mod/skylume
+    about: Download the latest official SkyLume release before reporting a bug.
