@@ -1,0 +1,58 @@
+name: Support request
+description: Ask for help using or configuring SkyLume
+title: "[Support]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for setup and usage questions. For reproducible defects, use the bug report form instead.
+
+        Check the Modrinth description and existing issues before submitting.
+
+  - type: input
+    id: skylume_version
+    attributes:
+      label: SkyLume version
+      placeholder: "2.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: "26.1.x"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Describe the goal and what prevents you from completing it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: Include relevant settings, commands, and troubleshooting steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Screenshots or additional context
+      description: Drag screenshots or logs here if they help explain the setup.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed session tokens, API keys, private server addresses, and other sensitive information from uploaded files.
+          required: true
