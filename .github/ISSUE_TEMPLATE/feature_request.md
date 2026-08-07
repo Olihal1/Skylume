@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for Skylume
+about: Suggest an improvement or new feature for SkyLume
 title: "[Feature] "
 labels: enhancement
 assignees: ""
@@ -8,16 +8,16 @@ assignees: ""
 
 ## What problem would this solve?
 
-Describe the problem or limitation you are experiencing.
+Describe the problem, limitation, or repetitive task you want SkyLume to address.
 
 ## Proposed feature
 
-Describe what you would like Skylume to do.
+Describe the behavior you would like.
 
 ## How often would you use it?
 
-For example: daily, weekly, occasionally, or only once.
+For example: every session, daily, weekly, occasionally, or only once.
 
 ## Additional context
 
-Add examples or any other information that would help explain the request.
+Add examples, screenshots, or related information if useful.
