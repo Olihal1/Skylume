@@ -3,6 +3,3 @@ contact_links:
   - name: Download SkyLume on Modrinth
     url: https://modrinth.com/mod/skylume
     about: Install the latest official release before reporting a problem.
-  - name: View existing reports
-    url: https://github.com/Olihal1/Skylume/issues
-    about: Search open and closed issues before creating a new report.
