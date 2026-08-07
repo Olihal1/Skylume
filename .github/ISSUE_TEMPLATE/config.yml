@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: SkyLume on Modrinth
+  - name: Download SkyLume on Modrinth
     url: https://modrinth.com/mod/skylume
-    about: Download the latest official SkyLume release before reporting a bug.
+    about: Install the latest official release before reporting a problem.
+  - name: View existing reports
+    url: https://github.com/Olihal1/Skylume/issues
+    about: Search open and closed issues before creating a new report.
