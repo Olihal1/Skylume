@@ -1,0 +1,117 @@
+name: Bug report
+description: Report a reproducible problem with SkyLume
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve SkyLume.
+
+        Before submitting, search existing issues and test with the latest official release from Modrinth. Please use the separate crash report form if Minecraft closed or produced a crash report.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and did not find the same problem.
+          required: true
+        - label: I am using the latest official SkyLume release available for my Minecraft version.
+          required: true
+
+  - type: input
+    id: skylume_version
+    attributes:
+      label: SkyLume version
+      description: The version shown in Mod Menu, the SkyLume About page, or the JAR filename.
+      placeholder: "2.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: "26.1.x"
+    validations:
+      required: true
+
+  - type: input
+    id: fabric_version
+    attributes:
+      label: Fabric Loader and Fabric API versions
+      description: Include both versions if available.
+      placeholder: "Fabric Loader ..., Fabric API ..."
+
+  - type: dropdown
+    id: context
+    attributes:
+      label: Where did this happen?
+      options:
+        - Hypixel SkyBlock
+        - Hypixel outside SkyBlock
+        - Singleplayer
+        - Another multiplayer server
+        - SkyLume menu before joining a world
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest reliable sequence that causes the problem.
+      placeholder: |
+        1. Open ...
+        2. Enable ...
+        3. Click ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include whether it happens every time.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Relevant mods
+      description: List mods that affect the same screen or feature, such as Skyblocker, Firmament, REI, Chat Patches, or tooltip mods.
+      placeholder: |
+        - Mod name and version
+        - Mod name and version
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Drag latest.log, screenshots, or a short video here. Logs are strongly recommended even when no crash occurred.
+      placeholder: Drag files here or paste links.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add anything else that may help reproduce or understand the issue.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed session tokens, API keys, private server addresses, and other sensitive information from uploaded files.
+          required: true
