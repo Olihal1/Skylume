@@ -1,16 +1,18 @@
 ---
 name: Bug report
-about: Report a problem with Skylume
+about: Report a reproducible problem with SkyLume
 title: "[Bug] "
 labels: bug
 assignees: ""
 ---
 
-## Version
+## SkyLume version
 
-What version of Skylume are you using?
+Which version of SkyLume are you using?
 
 ## Steps to reproduce
+
+Please list the exact steps that cause the problem.
 
 1.
 2.
@@ -26,4 +28,4 @@ What happened instead?
 
 ## Additional context
 
-Add screenshots, logs, or any other useful information.
+Add relevant screenshots or logs. Remove usernames, UUIDs, server addresses, tokens, and other private information before posting.
