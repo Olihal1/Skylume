@@ -21,22 +21,26 @@
 
 ## Get help
 
-Choose the form that best matches your situation:
+Use the single SkyLume report page:
 
-| I want to... | Use this form |
-| --- | --- |
-| Report a reproducible problem | [Bug report](https://github.com/Olihal1/Skylume/issues/new?template=bug_report.yml) |
-| Report Minecraft closing or crashing | [Crash report](https://github.com/Olihal1/Skylume/issues/new?template=crash_report.yml) |
-| Suggest an improvement | [Feature request](https://github.com/Olihal1/Skylume/issues/new?template=feature_request.yml) |
-| Ask a setup or usage question | [Support request](https://github.com/Olihal1/Skylume/issues/new?template=support_request.yml) |
+<p align="center">
+  <a href="https://github.com/Olihal1/Skylume/issues/new/choose"><strong>Open the SkyLume report form</strong></a>
+</p>
 
-You can also [open the issue chooser](https://github.com/Olihal1/Skylume/issues/new/choose) or [search existing issues](https://github.com/Olihal1/Skylume/issues).
+The page lets you choose the appropriate report type:
+
+- Bug report
+- Crash report
+- Feature request
+- Support request
+
+Before opening a new report, [search existing issues](https://github.com/Olihal1/Skylume/issues).
 
 ## Before submitting
 
 1. Update to the latest official SkyLume release available for your Minecraft version.
 2. Search open and closed issues for the same problem or suggestion.
-3. Choose the correct form and complete every required field.
+3. Open the report page, choose the correct form, and complete every required field.
 4. For bugs, include exact reproduction steps, expected behavior, and actual behavior.
 5. Attach screenshots and `latest.log` when relevant. A crash report must include the crash report or `latest.log`.
 
