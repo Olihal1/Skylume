@@ -2,15 +2,15 @@
 
 SkyLume is closed-source software. Its source code is not published in this repository.
 
-This repository exists only for:
+## Get help
 
-- Support questions
-- Bug reports
-- Feature requests
+- [Report a bug](https://github.com/Olihal1/Skylume/issues/new?template=bug_report.md)
+- [Request a feature](https://github.com/Olihal1/Skylume/issues/new?template=feature_request.md)
+- [View existing issues](https://github.com/Olihal1/Skylume/issues)
 
-Please search existing issues before opening a new one, then use the appropriate issue template and include all requested details.
+Please search existing issues first, then use the appropriate template and include all requested details.
 
-Official SkyLume releases are distributed through [Modrinth](https://modrinth.com/mod/skylume).
+This repository exists only for support questions, bug reports, and feature requests. Official SkyLume releases are distributed through [Modrinth](https://modrinth.com/mod/skylume).
 
 ## License
 
